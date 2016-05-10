@@ -1,0 +1,2 @@
+#n,k=map(int,input().split());s=list(map(int,input().split(',')));exec(k*'n-=1;s=[s[i+1]-s[i] for i in range(n)];');print(",".join(map(str,s)))
+f=lambda x:list(map(int,input().split(x)));n,k=f(' ');s=f(',');exec(k*'n-=1;s=[s[i+1]-s[i] for i in range(n)];');print(",".join(map(str,s)))

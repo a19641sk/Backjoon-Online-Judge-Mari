@@ -1,0 +1,1 @@
+i=input;exec(int(i())*'a=i();print(a[0]+a[-1]);')

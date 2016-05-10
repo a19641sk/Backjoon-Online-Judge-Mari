@@ -1,0 +1,1 @@
+l=[];exec(9*'l+=map(int,input().split());');i=l.index(max(l));print(l[i]);print(i//9+1,i%9+1)
